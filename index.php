@@ -1,5 +1,5 @@
 
-<?php include('partials/menu.php'); ?>
+<?php include('menu.php'); ?>
 
         <!-- Main content section starts --->
         <div class="main-content">
@@ -31,4 +31,4 @@
         </div>
         <!-- Menu content section ends --->
 
-<?php include('partials/footer.php'); ?>       
+<?php include('footer.php'); ?>       
