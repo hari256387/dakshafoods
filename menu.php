@@ -1,10 +1,10 @@
-<?php include('../config/constants.php'); ?>
+<?php include('..constants.php'); ?>
 
 <html>
     <head>
     <title>Food order website - Home page</title>
 
-    <link rel="stylesheet" href="../css/admin.css">
+    <link rel="stylesheet" href="..admin.css">
     </head>
 
     <body>
