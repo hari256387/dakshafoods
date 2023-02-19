@@ -1,4 +1,4 @@
-<?php include('partials/menu.php'); ?>
+<?php include('menu.php'); ?>
 
 
 <div class="main-content">
@@ -47,7 +47,7 @@
     </div>
 </div>
 
-<?php include('partials/footer.php'); ?>
+<?php include('footer.php'); ?>
 
 <?php
     //process the value from form and save it in database
@@ -81,7 +81,7 @@
            //create a session variable to display message
            $_SESSION['add'] = "Admin added successfully";
            //redirect page
-           header("location:".SITEURL.'admin/manage-admin.php');
+           header("location:".SITEURL.'manage-admin.php');
         }
         else
         {
@@ -90,7 +90,7 @@
              //create a session variable to display message
            $_SESSION['add'] = "fail to add admin";
            //redirect page
-           header("location:".SITEURL.'admin/add-admin.php');
+           header("location:".SITEURL.'add-admin.php');
         
         }
     }
