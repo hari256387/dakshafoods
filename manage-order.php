@@ -1,4 +1,4 @@
-<?php include('partials/menu.php'); ?>
+<?php include('menu.php'); ?>
 
 <div class="main-content">
     <div class="wrapper">
@@ -46,4 +46,4 @@
     </div>
 
 </div>
-<?php include('partials/footer.php'); ?>
+<?php include('footer.php'); ?>
